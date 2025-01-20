@@ -61,6 +61,9 @@ class SmartRecyclerView<T> : SwipeRefreshLayout {
         if(attach){
             PagerSnapHelper().attachToRecyclerView(recyclerView)
         }
+
+        ConfigStore.getBoolean(KEY_NEW_FOREX_ENABLED, false)
+        ConfigStore.getString("mmt.android.common.default.landing.default.inviteMsgUAE", defaultValue)
     }
 
     fun setFilter(searchText:String){
