@@ -1,7 +1,7 @@
 <resources>
 
-    <string name="noti_channel">Primary Channel</string>
-    <string name="noti_channel">Secondary Channel</string>
+    <string name="noti_channel_default">Primary Channel</string>
+    <string name="noti_channel_second">Secondary Channel</string>
     <string name="test_string">Test Stringds</string>
     <string name="vern_test_string">Test Stringdds sd</string>
 
